@@ -14,29 +14,27 @@ COUNT=`expr ${HISTORY} + 1`
 echo "${COUNT}" > ./count
 
 
-echo "                    ---===[ reifr.net Canary #$HISTORY ]===---
+echo "                    ---===[ reifr.net canary #$HISTORY ]===---
 
 
 Statements
 -----------
-The Administrators of reifr.net who have digitally signed this file state the following:
+The administrators of reifr.net who have digitally signed this file state the following:
 
 
-1. The date of issue of this canary is $(date +%x)
+1. The date of issue of this canary is $(date -u +%x)
 
-2. There have been $HISTORY reifr.net Security Bulletins published so far.
-
-3. The reifr.net Master Signing Key fingerprint is:
+2. The reifr.net Master Signing Key fingerprint is:
 
 	20BB 6616 A328 2A9F 8F15 9A53 4BB8 D801 C141 7BDC
 
-4. No warrants have ever been served to us with regard to the reifr.net
+3. No warrants have ever been served to us with regard to the reifr.net
 domain or subdomains (e.g. to hand out private data related to the domain's
 SSL certificates, signing keys, encrypted files, or non-encrypted files, user data,
 or hardware the services are running on).
 
-5. We plan to publish the next of these canary statements in the first
-two weeks of $(date +'%B %Y' -d "+6 months"). Special note should be taken if no new canary
+4. We plan to publish the next of these canary statements in the first
+two weeks of $(date -u +'%B %Y' -d "+6 months"). Special note should be taken if no new canary
 is published by that time or if the list of statements changes without
 plausible explanation.
 
