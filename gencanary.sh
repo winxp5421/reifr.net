@@ -14,23 +14,23 @@ COUNT=`expr ${HISTORY} + 1`
 echo "${COUNT}" > ./count
 
 
-echo "                    ---===[ Reifr.net Canary #$HISTORY ]===---
+echo "                    ---===[ reifr.net Canary #$HISTORY ]===---
 
 
 Statements
 -----------
-The Administrators of Reifr.net who have digitally signed this file state the following:
+The Administrators of reifr.net who have digitally signed this file state the following:
 
 
 1. The date of issue of this canary is $(date +%x)
 
-2. There have been $HISTORY Reifr.net Security Bulletins published so far.
+2. There have been $HISTORY reifr.net Security Bulletins published so far.
 
-3. The Reifr.net Master Signing Key fingerprint is:
+3. The reifr.net Master Signing Key fingerprint is:
 
-	<INSERT KEY FINGERPRINT HERE>
+	20BB 6616 A328 2A9F 8F15 9A53 4BB8 D801 C141 7BDC
 
-4. No warrants have ever been served to us with regard to the Reifr.net
+4. No warrants have ever been served to us with regard to the reifr.net
 domain or subdomains (e.g. to hand out private data related to the domain's
 SSL certificates, signing keys, encrypted files, or non-encrypted files, user data,
 or hardware the services are running on).

@@ -1,5 +1,5 @@
 # reifr.net
-Signed Canaries for Reifr.net
+Signed Canaries for reifr.net
 
 
-Script for generating signed canaries and an archive of canaries for the Reifr.net Domain.
+Script for generating signed canaries and an archive of canaries for the reifr.net Domain.
