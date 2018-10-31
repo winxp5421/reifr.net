@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Check for persistant increment file
-if [ ~ -f ./count ] ; then
+if [ -f ./count ] ; then
     HISTORY=0
 else
     HISTORY=$(cat ./count)
