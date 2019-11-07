@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Check for persistant increment file
-if [ -f ./count ] ; then
+if [ ! -f ./count ] ; then
     HISTORY=0
 else
     HISTORY=$(cat ./count)
@@ -34,7 +34,7 @@ SSL certificates, signing keys, encrypted files, or non-encrypted files, user da
 or hardware the services are running on).
 
 4. We plan to publish the next of these canary statements in the first
-two weeks of $(date -u +'%B %Y' -d "+6 months"). Special note should be taken if no new canary
+two weeks of $(date -u +'%B %Y' -d "+3 months"). Special note should be taken if no new canary
 is published by that time or if the list of statements changes without
 plausible explanation.
 
