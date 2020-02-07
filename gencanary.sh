@@ -79,9 +79,9 @@ $(feedstail -1 -n5 -f '{title}' -u https://feeds.bbci.co.uk/news/world/rss.xml)
 $ feedstail -1 -n5 -f '{title}' -u http://feeds.reuters.com/reuters/worldnews
 $(feedstail -1 -n5 -f '{title}' -u http://feeds.reuters.com/reuters/worldnews)
 
-$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][0]['\''hash'\''])'
+$ python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][26]['\''hash'\''])'
 $ curl -s 'https://blockchain.info/blocks/?format=json'
-$(curl -s 'https://blockchain.info/blocks/?format=json' | python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][0]['\''hash'\''])')
+$(curl -s 'https://blockchain.info/blocks/?format=json' | python3 -c 'import sys, json; print(json.load(sys.stdin)['\''blocks'\''][26]['\''hash'\''])')
 
 Footnotes
 ----------
