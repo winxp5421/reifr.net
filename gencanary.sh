@@ -76,9 +76,6 @@ $(feedstail -1 -n5 -f '{title}' -u https://rss.nytimes.com/services/xml/rss/nyt/
 $ feedstail -1 -n5 -f '{title}' -u https://feeds.bbci.co.uk/news/world/rss.xml
 $(feedstail -1 -n5 -f '{title}' -u https://feeds.bbci.co.uk/news/world/rss.xml)
 
-$ feedstail -1 -n5 -f '{title}' -u http://feeds.reuters.com/reuters/worldnews
-$(feedstail -1 -n5 -f '{title}' -u http://feeds.reuters.com/reuters/worldnews)
-
 $ curl -s 'https://blockchain.info/q/latesthash'
 $(curl -s 'https://blockchain.info/q/latesthash')
 
