@@ -1,0 +1,92 @@
+                    ---===[ reifr.net canary #13 ]===---
+
+
+Statements
+-----------
+The administrators of reifr.net who have digitally signed this file state the following:
+
+
+1. The date of issue of this canary is 05/04/2022
+
+2. The reifr.net Master Signing Key fingerprint is:
+
+	20BB 6616 A328 2A9F 8F15 9A53 4BB8 D801 C141 7BDC
+
+3. No warrants have ever been served to us with regard to the reifr.net
+domain or subdomains (e.g. to hand out private data related to the domain's
+SSL certificates, signing keys, encrypted files, or non-encrypted files, user data,
+or hardware the services are running on).
+
+4. We plan to publish the next of these canary statements in the first
+two weeks of August 2022. Special note should be taken if no new canary
+is published by that time or if the list of statements changes without
+plausible explanation.
+
+Special announcements
+----------------------
+
+!!!ATTENTION!!!
+
+New PGP Signing Keys will be generated soon!
+Both the new and old PGP keys will be used to sign canaries.
+Eventually, the old PGP keys will be phased out.
+For the time being there will be two signatures on each canary.
+More information will be available once a transition plan has been agreed upon. 
+
+Disclaimers and notes
+----------------------
+
+This canary scheme is not infallible. Although signing the declaration
+makes it very difficult for a third party to produce arbitrary
+declarations, it does not prevent them from using force or other
+means, like blackmail or compromising the signers' laptops, to coerce
+us to produce false declarations.
+
+The news feeds quoted below (Proof of freshness) serves to demonstrate
+that this canary could not have been created prior to the date stated.
+It shows that a series of canaries was not created in advance.
+
+This declaration is merely a best effort and is provided without any
+guarantee or warranty. It is not legally binding in any way to
+anybody. None of the signers should be ever held legally responsible
+for any of the statements made here.
+
+Proof of freshness
+-------------------
+
+$ date -R -u
+Wed, 04 May 2022 21:47:25 +0000
+
+$ feedstail -1 -n5 -f '{title}' -u https://www.spiegel.de/international/index.rss
+Guinea-Bissau: The Case of a Missing Ton of Cocaine Highlights the Dangers of the Drug Trade
+An FAQ for Ukrainian Refugees: What You Need To Know To Study at a German University
+Indian Author Pankaj Mishra on the War in Ukraine: "Have You Really Thought This Through"
+Bonn-Moscow Ties: Newly Released Documents Shed Fresh Light on NATO's Eastward Expansion
+The Orbán Problem: Europe Takes On an Unpredicatable Autocrat: Will Viktor Orbán Strike Back?
+
+$ feedstail -1 -n5 -f '{title}' -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+Ukraine Live Updates: Fears of Expanded War Rise as Russia’s Victory Day Approaches With No Change on Battlefield
+A Crumbling Russian ‘Spyville’ Returns to Polish Hands
+In Mexico, One Cartel Is Cleared, but Others Storm In
+What Is Russia’s May 9 Victory Day, and What Might Putin Say?
+Japan Says It Needs Nuclear Power. Can Host Towns Ever Trust It Again?
+
+$ feedstail -1 -n5 -f '{title}' -u https://feeds.bbci.co.uk/news/world/rss.xml
+Ukraine war: EU plans Russian oil ban and war crimes sanctions
+Anger outside Mississippi's last abortion clinic
+Disabled children 'dumped' in Ukrainian institutions
+Ukraine war: Russia denies it plans to declare war on 9 May
+US makes biggest interest rate rise in 22 years
+
+$ curl -s 'https://blockchain.info/q/latesthash'
+000000000000000000039645efa2cd15f06581ec146eb0eff2ae438f23091554
+
+Footnotes
+----------
+
+[1] This file should be signed via detached PGP
+signatures by each of the signers, distributed together with this
+canary in the https://github.com/winxp5421/reifr.net.git repository. [2]
+
+[2] Don't just trust the contents of this file blindly! Verify the
+digital signatures!
