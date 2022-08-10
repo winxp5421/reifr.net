@@ -1,4 +1,4 @@
-# Key Depreciation Notice
+# Key Deprecation Notice
 
 #### Master Signing Key 20BB 6616 A328 2A9F 8F15 9A53 4BB8 D801 C141 7BDC will be deprecated effective [canary#15-Nov-2022](../../canaries/2022/canary#15-Nov-2022.txt)
 
