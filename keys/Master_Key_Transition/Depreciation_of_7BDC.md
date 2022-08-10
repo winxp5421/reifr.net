@@ -1,6 +1,6 @@
 # Key Depreciation Notice
 
-#### Master Signing Key 20BB 6616 A328 2A9F 8F15 9A53 4BB8 D801 C141 7BDC will be deprecated effective [canary#15-Nov-2022](../canaries/2022/canary#15-Nov-2022.txt)
+#### Master Signing Key 20BB 6616 A328 2A9F 8F15 9A53 4BB8 D801 C141 7BDC will be deprecated effective [canary#15-Nov-2022](../../canaries/2022/canary#15-Nov-2022.txt)
 
 ### What Happened?
 
@@ -8,7 +8,7 @@ TLDR: The "certify" private key for 7BDC has been lost. Signing, Encryption, and
 This essentially means no new signing keys can be cryptographically signed/Authorized.  
 This is not sustainable for the future.  
 The canaries can still be signed by key 7BDC and will continue to be signed by this key into the future.  
-Special note should not be taken if a 7BDC signature is missing from a canary after [canary#15-Nov-2022](../canaries/2022/canary#15-Nov-2022.txt) 
+Special note should not be taken if a 7BDC signature is missing from a canary after [canary#15-Nov-2022](../../canaries/2022/canary#15-Nov-2022.txt) 
 
 ----------
 
@@ -30,14 +30,14 @@ There is still a chance of recovering the private key via the lost drive at the 
 If the Master Private Key for 7BDC is recovered at a later date a special statement will be published and the new 1E03 key will be signed properly.  
 
 New canaries will be signed with both new and legacy signing keys as long as the legacy signing keys still exist.  
-No special note should be made if canaries after [canary#15-Nov-2022](../canaries/2022/canary#15-Nov-2022.txt) are missing signatures from the legacy 7BDC Master Key.  
+No special note should be made if canaries after [canary#15-Nov-2022](../../canaries/2022/canary#15-Nov-2022.txt) are missing signatures from the legacy 7BDC Master Key.  
 
 
 ### New Key Generation
 
 A new key has been generated.  
 
-Master Signing Key: [9CAF 2256 61DA 2385 BBA2  4CFD 782F B8F3 3924 1E02](Signing_key_1E02.asc)  
+Master Signing Key: [9CAF 2256 61DA 2385 BBA2  4CFD 782F B8F3 3924 1E02](../Signing_key_1E02.asc)  
 With this new key, we have changed key algorithms to ed25519 in an attempt to resist future computing technologies  
 
 ### New Key Proof Of Ownership
