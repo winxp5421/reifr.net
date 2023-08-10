@@ -1,0 +1,86 @@
+                    ---===[ reifr.net canary #19 ]===---
+
+
+Statements
+-----------
+The administrators of reifr.net who have digitally signed this file state the following:
+
+
+1. The date of issue of this canary is 08/10/2023
+
+2. The reifr.net Master Signing Key fingerprint is:
+
+	20BB 6616 A328 2A9F 8F15 9A53 4BB8 D801 C141 7BDC
+
+3. No warrants have ever been served to us with regard to the reifr.net
+domain or subdomains (e.g. to hand out private data related to the domain's
+SSL certificates, signing keys, encrypted files, or non-encrypted files, user data,
+or hardware the services are running on).
+
+4. We plan to publish the next of these canary statements in the first
+two weeks of November 2023. Special note should be taken if no new canary
+is published by that time or if the list of statements changes without
+plausible explanation.
+
+Special announcements
+----------------------
+
+None.
+
+Disclaimers and notes
+----------------------
+
+This canary scheme is not infallible. Although signing the declaration
+makes it very difficult for a third party to produce arbitrary
+declarations, it does not prevent them from using force or other
+means, like blackmail or compromising the signers' laptops, to coerce
+us to produce false declarations.
+
+The news feeds quoted below (Proof of freshness) serves to demonstrate
+that this canary could not have been created prior to the date stated.
+It shows that a series of canaries was not created in advance.
+
+This declaration is merely a best effort and is provided without any
+guarantee or warranty. It is not legally binding in any way to
+anybody. None of the signers should be ever held legally responsible
+for any of the statements made here.
+
+Proof of freshness
+-------------------
+
+$ date -R -u
+Thu, 10 Aug 2023 14:34:58 +0000
+
+$ feedstail -1 -n5 -f '{title}' -u https://www.spiegel.de/international/index.rss
+Fallout from the Putsch in Niger: Anger Against France Grows in Africa's "Coup Belt"
+Germany: The AfD's Constant Drift Toward Extremism
+Germany: Secret Messages Document Moscow Contacts with Staffer of Far-Right AfD
+UN Envoy on the Civil War in Sudan: "Both Warring Parties Are Still Convinced They Can Win"
+A Race Between the World Powers: Can the West Regain Its Lost Footing in Africa?
+
+$ feedstail -1 -n5 -f '{title}' -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+Russia-Ukraine War: In Rare Move, Russian Tech Tycoon Condemns War in Ukraine
+A Drone’s View Behind Russian Lines: Cratered Fields and Charred Armor
+Ecuador Presidential Candidate Is Assassinated During Rally
+Few Options on Niger Crisis for West African Leaders
+What to Know About Fernando Villavicencio, Who Was Assassinated in Ecuador
+
+$ feedstail -1 -n5 -f '{title}' -u https://feeds.bbci.co.uk/news/world/rss.xml
+Hawaii wildfires scorched land 'like an apocalypse'
+Ecuador politician murder: Prison gangs in terror reign
+US and UN concerned for ousted Niger president Mohamed Bazoum's health
+Yandex founder slams Russia's 'barbaric' war in Ukraine
+Cheng Lei: Journalist held in China says she misses sunshine
+
+$ curl -s 'https://blockchain.info/q/latesthash'
+00000000000000000001a2a214a89d1632e11912d85f35b4908e18f591a91aad
+
+Footnotes
+----------
+
+[1] This file should be signed via detached PGP
+signatures by each of the signers, distributed together with this
+canary in the https://github.com/winxp5421/reifr.net.git repository. [2]
+
+[2] Don't just trust the contents of this file blindly! Verify the
+digital signatures!
