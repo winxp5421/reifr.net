@@ -1,0 +1,90 @@
+                    ---===[ reifr.net canary #22 ]===---
+
+
+Statements
+-----------
+The administrators of reifr.net who have digitally signed this file state the following:
+
+
+1. The date of issue of this canary is 05/08/2024
+
+2. The reifr.net Master Signing Key fingerprint is:
+
+	20BB 6616 A328 2A9F 8F15 9A53 4BB8 D801 C141 7BDC
+
+3. No warrants have ever been served to us with regard to the reifr.net
+domain or subdomains (e.g. to hand out private data related to the domain's
+SSL certificates, signing keys, encrypted files, or non-encrypted files, user data,
+or hardware the services are running on).
+
+4. We plan to publish the next of these canary statements in the first
+two weeks of August 2024. Special note should be taken if no new canary
+is published by that time or if the list of statements changes without
+plausible explanation.
+
+Special announcements
+----------------------
+
+None.
+
+Disclaimers and notes
+----------------------
+
+This canary scheme is not infallible. Although signing the declaration
+makes it very difficult for a third party to produce arbitrary
+declarations, it does not prevent them from using force or other
+means, like blackmail or compromising the signers' laptops, to coerce
+us to produce false declarations.
+
+The news feeds quoted below (Proof of freshness) serves to demonstrate
+that this canary could not have been created prior to the date stated.
+It shows that a series of canaries was not created in advance.
+
+This declaration is merely a best effort and is provided without any
+guarantee or warranty. It is not legally binding in any way to
+anybody. None of the signers should be ever held legally responsible
+for any of the statements made here.
+
+Proof of freshness
+-------------------
+
+$ date -R -u
+Wed, 08 May 2024 19:58:18 +0000
+
+
+$ feedstail -1 -n5 -f '{title}' -u https://www.spiegel.de/international/index.rss
+Fish Farming in Iceland: Invasion of the Zombie Salmon
+The Landgrab in Ukraine: Russia Moves to Expropriate Homes in Occupied Regions
+Alternative for Germany (AfD): How the far-right party became the Long Arm of Russia and China
+Still Just a Lightweight: Germany Fails to Gain Traction with Foreign Policy
+The 2024 Social Design Award: Everyone Can Pitch In!
+
+
+$ feedstail -1 -n5 -f '{title}' -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+U.S. Defense Chief Ties Biden’s Hold on Bombs for Israel to Rafah Offensive
+With a Gaza Cease-Fire in the Balance, Netanyahu Maneuvers to Keep Power
+Olympic Flame Arrives in Marseille
+Flooding in Southern Brazil: Images of Rio Grande do Sul Underwater
+In Serbia, Xi Underlines Close Ties With Ally That Shares Wariness of U.S.
+
+
+$ feedstail -1 -n5 -f '{title}' -u https://feeds.bbci.co.uk/news/world/rss.xml
+Battles in east Rafah as Israel reopens aid route
+German politician attacked in library as violence spreads
+House cancels DC mayor testimony after campus arrests
+EU moves to give profits from Russian assets to Ukraine
+Malaysia offers trade partners 'orangutan diplomacy'
+
+
+$ curl -s 'https://blockchain.info/q/latesthash'
+000000000000000000031e8e7cd16f3e043cb27225c39407e820ae2280bbb910
+
+Footnotes
+----------
+
+[1] This file should be signed via detached PGP
+signatures by each of the signers, distributed together with this
+canary in the https://github.com/winxp5421/reifr.net.git repository. [2]
+
+[2] Don't just trust the contents of this file blindly! Verify the
+digital signatures!
