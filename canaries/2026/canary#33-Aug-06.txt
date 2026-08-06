@@ -1,0 +1,86 @@
+                    ---===[ reifr.net canary #33 ]===---
+
+
+Statements
+-----------
+The administrators of reifr.net who have digitally signed this file state the following:
+
+
+1. The date of issue of this canary is 08/06/2026
+
+2. The reifr.net Master Signing Key fingerprint is:
+
+	9CAF 2256 61DA 2385 BBA2  4CFD 782F B8F3 3924 1E02
+
+3. No warrants have ever been served to us with regard to the reifr.net
+domain or subdomains (e.g. to hand out private data related to the domain's
+SSL certificates, signing keys, encrypted files, or non-encrypted files, user data,
+or hardware the services are running on).
+
+4. We plan to publish the next of these canary statements in the first
+two weeks of November 2026. Special note should be taken if no new canary
+is published by that time or if the list of statements changes without
+plausible explanation.
+
+Special announcements
+----------------------
+
+None.
+
+Disclaimers and notes
+----------------------
+
+This canary scheme is not infallible. Although signing the declaration
+makes it very difficult for a third party to produce arbitrary
+declarations, it does not prevent them from using force or other
+means, like blackmail or compromising the signers' laptops, to coerce
+us to produce false declarations.
+
+The news feeds quoted below (Proof of freshness) serves to demonstrate
+that this canary could not have been created prior to the date stated.
+It shows that a series of canaries was not created in advance.
+
+This declaration is merely a best effort and is provided without any
+guarantee or warranty. It is not legally binding in any way to
+anybody. None of the signers should be ever held legally responsible
+for any of the statements made here.
+
+Proof of freshness
+-------------------
+
+$ date -R -u
+Thu, 06 Aug 2026 20:10:24 +0000
+
+$ feedstail -1 -n5 -f '{title}' -u https://www.spiegel.de/international/index.rss
+The New Axis of Evil: DER SPIEGEL Investigation Reveals Deep Military Cooperation between Russia and China
+New Information in the Nazi Database: What You Need to Know About the SS
+250 Years: American Democracy Has Survived 250 Years, But Can It Survive Trump?
+In Trump's Colony: Does the US Really Hold the Reins in Venezuela?
+The Minab Attack: Did the United States Commit a War Crime in Iran?
+
+$ feedstail -1 -n5 -f '{title}' -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+Venezuela’s Response to Earthquakes Exposes Government’s Shortcomings
+Fires Wrecked Their Village in France. Now They Want Answers.
+Country Music Festival Lights Up Nairobi
+Amid Intensifying Russian Strikes, Ukraine’s Pleas for Air Defenses Are Falling Flat
+Houthi Attacks on Yemeni Military Threaten to Reignite Civil War
+
+$ feedstail -1 -n5 -f '{title}' -u https://feeds.bbci.co.uk/news/world/rss.xml
+Trump denies US weapons shortage and says information 'leakers' being 'hunted down'
+Uefa says boycott may still go ahead as FA withdraws Infantino support
+South Korea space agency shares Moon images after SpaceX rocket debris crash
+Thousands of migrants still in Ceuta after border crisis, local leader says
+Israel charges settler over killing of Palestinian involved in Oscar-winning West Bank film
+
+$ curl -s 'https://blockchain.info/q/latesthash'
+00000000000000000002024f8204a700dc7b41b099f264997f1d5b606afdbe9c
+
+Footnotes
+----------
+
+[1] This file should be signed via detached PGP
+signatures by each of the signers, distributed together with this
+canary in the https://github.com/winxp5421/reifr.net.git repository. [2]
+
+[2] Don't just trust the contents of this file blindly! Verify the
+digital signatures!
